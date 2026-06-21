@@ -181,7 +181,7 @@ toc:
 <div class="cv-entry">
   <div class="cv-entry-head">
     <div class="cv-entry-main">
-      <img src="/assets/img/logos/aws.svg" alt="AWS" class="org-logo-big org-logo-fix-dark">
+      <img src="/assets/img/logos/aws_square.png" alt="AWS" class="org-logo-big org-logo-fix-dark">
       <div>
         <p class="cv-entry-title">ML Intern, Neuron Scalable Training</p>
         <p class="cv-entry-sub"><a href="https://aws.amazon.com/machine-learning/trainium/" target="_blank" rel="noopener">Amazon Web Services, Annapurna Labs</a></p>
