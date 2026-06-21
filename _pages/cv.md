@@ -13,7 +13,7 @@ toc:
   margin-bottom: 2rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
-  padding: 1.5rem 2rem 0.75rem;
+  padding: 1.5rem 1.25rem 0.75rem;
 }
 .cv-section > h2 {
   font-size: 1.75rem;
@@ -75,7 +75,7 @@ toc:
 .cw-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2.5rem;
+  column-gap: 1rem;
   row-gap: 0.05rem;
   font-size: 0.88rem;
   color: var(--global-text-color);
