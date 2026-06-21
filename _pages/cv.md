@@ -43,8 +43,9 @@ toc:
 .cv-entry-area {
   margin: 0.1rem 0 0;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light, #aaa);
+  white-space: nowrap;
 }
 .cv-entry-meta {
   text-align: right;
@@ -85,7 +86,6 @@ toc:
   border-radius: 4px;
 }
 [data-theme="dark"] .org-logo-fix-dark { filter: brightness(0) invert(1); }
-@media (prefers-color-scheme: dark) { .org-logo-fix-dark { filter: brightness(0) invert(1); } }
 .cv-entry-sub a {
   color: var(--global-text-color);
   text-decoration: none;
@@ -120,7 +120,7 @@ toc:
 <div class="cv-entry">
   <div class="cv-entry-head">
     <div class="cv-entry-main">
-      <img src="/assets/img/logos/cmu.svg" alt="CMU" class="org-logo-big org-logo-fix-dark">
+      <img src="/assets/img/logos/cmu_square.png" alt="CMU" class="org-logo-big">
       <div>
         <p class="cv-entry-title">Master of Science</p>
         <p class="cv-entry-sub"><a href="https://www.cs.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University, School of Computer Science</a></p>
