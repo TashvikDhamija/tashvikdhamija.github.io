@@ -29,26 +29,18 @@ latest_posts:
 ---
 
 <style>
-/* Selected pubs: one-line title with Submitted inline */
-.publications .author,
-.publications .periodical,
+/* Selected pubs: hide only the abs/arxiv/bib buttons; title stays one line */
 .publications .links { display: none; }
-
-.publications .col-sm-8 {
-  overflow: hidden;
+.publications .title {
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
-.publications .col-sm-8 > .title {
+/* Submitted note on same line as the venue */
+.publications .col-sm-8 > div.periodical + div.periodical {
   display: inline;
-  font-size: 0.92rem;
-}
-/* Show note (e.g. "Submitted") inline after title for CoRL */
-.publications .col-sm-8 > div.periodical:nth-child(4) {
-  display: inline;
-  font-size: 0.78rem;
-  color: var(--global-text-color-light, #aaa);
-  padding-left: 0.5rem;
+  margin-left: 0.4rem;
+  font-size: 0.85rem;
 }
 
 /* Hobbies tags */
