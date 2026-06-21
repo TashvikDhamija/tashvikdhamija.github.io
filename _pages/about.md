@@ -36,12 +36,6 @@ latest_posts:
 .publications .col-sm-8 { flex: 1; max-width: none; width: auto; }
 /* Title: one line, no truncation */
 .publications .title { white-space: nowrap; }
-/* Submitted on same line as venue */
-.publications .col-sm-8 > div.periodical + div.periodical {
-  display: inline;
-  margin-left: 0.4rem;
-  font-size: 0.85rem;
-}
 
 /* Topics of interest */
 .topics-row {
