@@ -43,21 +43,6 @@ latest_posts:
   font-size: 0.85rem;
 }
 
-/* Hobbies tags */
-.hobby-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-top: 0.5rem;
-}
-.hobby-tags span {
-  border: 1px solid var(--global-theme-color);
-  color: var(--global-text-color);
-  padding: 0.2rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.88rem;
-}
-
 /* Topics of interest */
 .topics-row {
   display: flex;
@@ -80,25 +65,8 @@ I am a Master's student in Artificial Intelligence and Innovation at Carnegie Me
 
 Before CMU, I co-founded an AI startup at Inria Startup Studio, building audio-driven video avatar generation systems showcased at VivaTech (Paris) and Bits & Pretzels (Munich). I have published in IJCV, IEEE T-BIOM, and Applied Intelligence, with work spanning video/image generation and detection, robot learning, and biometric restoration.
 
-<br>
-
-**Hobbies**
-
-<div class="hobby-tags">
-  <span>Formula 1</span>
-  <span>Pool</span>
-  <span>Football</span>
-  <span>Indie &amp; Alt Music</span>
-  <span>Cooking</span>
-</div>
-
-<br>
-
-**Topics of Interest**
-
 <div class="topics-row">
   <span>Computer Vision</span>
-  <span>Large-Scale Model Training</span>
   <span>Robot Learning</span>
   <span>Diffusion &amp; Flow Matching</span>
 </div>
