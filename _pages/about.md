@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Pittsburgh, PA</p>
-    <p><a href="mailto:tdhamija@andrew.cmu.edu">tdhamija@andrew.cmu.edu</a></p>
+    <p><a href="mailto:tdhamija@cs.cmu.edu">tdhamija@cs.cmu.edu</a></p>
     <p style="margin-top:0.6rem; display:flex; gap:0.75rem; font-size:1.1rem;">
       <a href="https://linkedin.com/in/tashvikdhamija" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/TashvikDhamija" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
