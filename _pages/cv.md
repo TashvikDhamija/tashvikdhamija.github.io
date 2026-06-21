@@ -9,7 +9,12 @@ toc:
 ---
 
 <style>
-.cv-section { margin-bottom: 3rem; }
+.cv-section {
+  margin-bottom: 2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 1.5rem 2rem 0.75rem;
+}
 .cv-section > h2 {
   font-size: 1.75rem;
   border-bottom: 1px solid var(--global-divider-color);
