@@ -1,0 +1,136 @@
+cv:
+  name: Tashvik Dhamija
+  label: MS AI @ Carnegie Mellon University
+  email: tdhamija@andrew.cmu.edu
+  location: Pittsburgh, PA
+  image: ""
+  summary: MS student in AI at CMU with research experience in generative AI, computer vision, and efficient deep learning. Industry background spanning ML internships, computer vision engineering, and AI entrepreneurship.
+
+  social_networks:
+    - network: LinkedIn
+      username: tashvikdhamija
+    - network: GitHub
+      username: tashvikdhamija
+
+  sections:
+    Education:
+      - institution: Carnegie Mellon University
+        location: Pittsburgh, PA, USA
+        url: https://www.cs.cmu.edu/
+        area: Artificial Intelligence and Innovation
+        studyType: Master of Science — School of Computer Science
+        start_date: 2024
+        end_date: present
+        score: "4.08/4.0"
+        courses: "Computer Systems, Intro to Machine Learning (PhD), Advanced Deep Learning (PhD), Computer Vision, Advanced NLP (PhD), AI Engineering, Learning for 3D Vision, Deep Learning Systems, Generative AI"
+
+      - institution: Delhi Technological University
+        location: Delhi, India
+        area: Electronics and Communications Engineering
+        studyType: Bachelor of Technology
+        start_date: 2019
+        end_date: 2023
+        score: "9.14/10.0"
+        courses: "Deep Learning, Computer Vision, Data Structures, Algorithms, Object Oriented Programming, DBMS"
+
+    Experience:
+      - company: Amazon AWS Annapurna Labs
+        position: ML Intern — Neuron Scalable Training
+        location: Cupertino, CA, USA
+        start_date: 2026-05
+        end_date: 2026-08
+        highlights:
+          - Enabled diffusion and flow-matching model training on AWS Trainium hardware by onboarding SOTA models (Stable Diffusion, FLUX, DiT, Wan) onto Neuron, Annapurna's native PyTorch backend.
+          - Implemented and optimized PyTorch ATen operators for the Neuron backend, extending native operator coverage and efficiency.
+          - Validated long-horizon training dynamics between Neuron and CUDA across text-to-image, text-to-video, and diffusion language models, ensuring convergence, numerical stability, and quality parity.
+
+      - company: Inria Startup Studio — Centre at Université Côte d'Azur
+        position: AI Entrepreneur and Researcher
+        location: Valbonne, France
+        start_date: 2023-10
+        end_date: 2024-09
+        highlights:
+          - Architected a generative AI pipeline using diffusion transformers and cross-modal alignment to synthesize audio-driven video avatars with high temporal coherence and realistic lip-sync, optimized for real-time generation.
+          - Led a 5-member team to launch MVPs for video generation (Product Hunt) and automated presentation creation with avatars.
+          - Formulated go-to-market strategy via business plans and financial models; showcased MVPs at VivaTech (Paris) and Bits & Pretzels (Munich), generating 20+ partner and investor leads.
+
+      - company: SwitchOn
+        position: Computer Vision Engineer
+        location: Bangalore, India
+        start_date: 2023-06
+        end_date: 2023-09
+        highlights:
+          - Engineered real-time one-shot anomaly detection pipelines using embedding similarity in memory-bank architectures; led integration of a transformer-based OCR module into the anomaly detection stack.
+          - Achieved >99% accuracy with <1% false positives in defect identification on manufacturing lines.
+          - Performed remote rollout and on-device validation of models on Linux embedded hardware for robust edge inference.
+
+    Publications:
+      - title: "Looking In Through Removal: Interpretability Analysis of Physical Priors in IL Policies"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: "CoRL (submitted)"
+        releaseDate: 2025
+        summary: Introduced a causal interpretability framework to identify which physics properties govern distinct stages of manipulation task execution.
+
+      - title: "Dimitra: Audio-driven Diffusion Model for Expressive Talking Head Generation"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: International Journal of Computer Vision (IJCV)
+        releaseDate: TODO
+        summary: Innovated a diffusion transformer for talking head generation, leveraging audio-to-3D latent embeddings to render accurate lip-sync videos.
+
+      - title: "Generalizable Deepfake Detection based on Visual Speech Recognition (VSR)"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
+        releaseDate: TODO
+        summary: Engineered a zero-shot model harnessing representation learning on VSR latent space, achieving 30% deepfake detection improvement.
+
+      - title: "Semantic Segmentation through Transfused Convolution and Transformer"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: Applied Intelligence
+        releaseDate: TODO
+        summary: Designed a hybrid U-Net + Vision Transformer architecture to capture local and global context, improving nuclei and skin lesion segmentation by 10%.
+
+      - title: "Local Distributional Smoothing for Noise-invariant Fingerprint Restoration"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: BIOSIG (Oral Presentation)
+        releaseDate: TODO
+        summary: Developed a novel adversarial training algorithm for GAN-based denoising models, boosting fingerprint matching by 20%.
+
+      - title: "Cross Domain Consistency Fingerprint Denoising"
+        authors:
+          - Tashvik Dhamija
+          - et al.
+        publisher: IEEE Sensors Letters
+        releaseDate: TODO
+        summary: Proposed a novel unsupervised loss exploiting unlabeled data to improve fingerprint identification by 19%.
+
+    Skills:
+      - name: Programming & Systems
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, C/C++, SQL, Bash, Linux, Git, AWS, Conda, Jupyter, Docker, HPCs, GPUs, Distributed & Parallel Compute"
+
+      - name: Machine Learning
+        level: Expert
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, CUDA, TensorFlow, Keras, Pandas, NumPy, Scikit-Learn, OpenCV, HuggingFace Transformers, Generative AI, Diffusion Models, GANs, LLMs, Computer Vision, NLP"
+
+    Achievements:
+      - title: Amazon ML Challenge — 2nd Place (Nationwide, ~5000 teams)
+        date: 2022
+        awarder: Amazon
+        summary: Engineered an ensemble of fine-tuned BERT and RoBERTa models with clustering-based quantization to predict product dimensions. Team name — "Team Fishes".
+
+      - title: Research Impact
+        date: 2025
+        awarder: Google Scholar
+        summary: Published 5+ peer-reviewed articles with over 128 citations, h-index of 4, and i10-index of 2.
