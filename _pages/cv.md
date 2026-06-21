@@ -72,13 +72,20 @@ toc:
   font-size: 0.93rem;
   margin: 0.75rem 0 0.3rem;
 }
-.org-logo {
-  height: 20px;
-  width: auto;
-  vertical-align: middle;
-  margin-right: 0.45rem;
-  border-radius: 2px;
+.cv-entry-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
 }
+.org-logo-big {
+  height: 46px;
+  width: auto;
+  flex-shrink: 0;
+  margin-top: 3px;
+  border-radius: 4px;
+}
+[data-theme="dark"] .org-logo-fix-dark { filter: brightness(0) invert(1); }
+@media (prefers-color-scheme: dark) { .org-logo-fix-dark { filter: brightness(0) invert(1); } }
 .cv-entry-sub a {
   color: var(--global-text-color);
   text-decoration: none;
@@ -112,10 +119,13 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">Master of Science</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/cmu.svg" alt="CMU" class="org-logo"><a href="https://www.cs.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University, School of Computer Science</a></p>
-      <p class="cv-entry-area">Artificial Intelligence and Innovation &nbsp;·&nbsp; GPA: 4.08 / 4.0</p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/cmu.svg" alt="CMU" class="org-logo-big org-logo-fix-dark">
+      <div>
+        <p class="cv-entry-title">Master of Science</p>
+        <p class="cv-entry-sub"><a href="https://www.cs.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University, School of Computer Science</a></p>
+        <p class="cv-entry-area">Artificial Intelligence and Innovation &nbsp;·&nbsp; GPA: 4.08 / 4.0</p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Sep 2024 – Present</span>
@@ -138,10 +148,13 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">Bachelor of Technology</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/dtu.png" alt="DTU" class="org-logo"><a href="https://www.dtu.ac.in/" target="_blank" rel="noopener">Delhi Technological University</a></p>
-      <p class="cv-entry-area">Electronics and Communications Engineering &nbsp;·&nbsp; GPA: 9.14 / 10.0</p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/dtu_emblem.png" alt="DTU" class="org-logo-big">
+      <div>
+        <p class="cv-entry-title">Bachelor of Technology</p>
+        <p class="cv-entry-sub"><a href="https://www.dtu.ac.in/" target="_blank" rel="noopener">Delhi Technological University</a></p>
+        <p class="cv-entry-area">Electronics and Communications Engineering &nbsp;·&nbsp; GPA: 9.14 / 10.0</p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Aug 2019 – May 2023</span>
@@ -167,9 +180,12 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">ML Intern, Neuron Scalable Training</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/aws.svg" alt="AWS" class="org-logo"><a href="https://aws.amazon.com/machine-learning/trainium/" target="_blank" rel="noopener">Amazon Web Services, Annapurna Labs</a></p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/aws.svg" alt="AWS" class="org-logo-big org-logo-fix-dark">
+      <div>
+        <p class="cv-entry-title">ML Intern, Neuron Scalable Training</p>
+        <p class="cv-entry-sub"><a href="https://aws.amazon.com/machine-learning/trainium/" target="_blank" rel="noopener">Amazon Web Services, Annapurna Labs</a></p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">May 2026 – Aug 2026</span>
@@ -185,9 +201,12 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">AI Entrepreneur and Researcher</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo"><a href="https://startup.inria.fr/" target="_blank" rel="noopener">Inria Startup Studio, Université Côte d'Azur</a></p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo-big">
+      <div>
+        <p class="cv-entry-title">AI Entrepreneur and Researcher</p>
+        <p class="cv-entry-sub"><a href="https://startup.inria.fr/" target="_blank" rel="noopener">Inria Startup Studio, Université Côte d'Azur</a></p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Oct 2023 – Sep 2024</span>
@@ -203,9 +222,12 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">Computer Vision Engineer</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/switchon.svg" alt="SwitchOn" class="org-logo"><a href="https://switchon.io/" target="_blank" rel="noopener">SwitchOn</a></p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/switchon.svg" alt="SwitchOn" class="org-logo-big">
+      <div>
+        <p class="cv-entry-title">Computer Vision Engineer</p>
+        <p class="cv-entry-sub"><a href="https://switchon.io/" target="_blank" rel="noopener">SwitchOn</a></p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Jun 2023 – Sep 2023</span>
@@ -221,9 +243,12 @@ toc:
 
 <div class="cv-entry">
   <div class="cv-entry-head">
-    <div>
-      <p class="cv-entry-title">Undergraduate Research Intern</p>
-      <p class="cv-entry-sub"><img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo"><a href="https://www.inria.fr/fr/centre-inria-universite-cote-azur" target="_blank" rel="noopener">Inria Centre at Université Côte d'Azur</a></p>
+    <div class="cv-entry-main">
+      <img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo-big">
+      <div>
+        <p class="cv-entry-title">Undergraduate Research Intern</p>
+        <p class="cv-entry-sub"><a href="https://www.inria.fr/fr/centre-inria-universite-cote-azur" target="_blank" rel="noopener">Inria Centre at Université Côte d'Azur</a></p>
+      </div>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">May 2022 – Jun 2023</span>
