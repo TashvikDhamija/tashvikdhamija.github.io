@@ -29,14 +29,14 @@ latest_posts:
 ---
 
 <style>
-/* Selected pubs: hide only the abs/arxiv/bib buttons; title stays one line */
+/* Selected pubs: hide only the abs/arxiv/bib buttons */
 .publications .links { display: none; }
-.publications .title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-/* Submitted note on same line as the venue */
+/* Let the content column expand to fill remaining row width */
+.publications .row { display: flex; flex-wrap: nowrap; }
+.publications .col-sm-8 { flex: 1; max-width: none; width: auto; }
+/* Title: one line, no truncation */
+.publications .title { white-space: nowrap; }
+/* Submitted on same line as venue */
 .publications .col-sm-8 > div.periodical + div.periodical {
   display: inline;
   margin-left: 0.4rem;
