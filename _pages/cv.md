@@ -79,13 +79,13 @@ toc:
   gap: 1rem;
 }
 .org-logo-big {
-  height: 64px;
+  height: 46px;
   width: auto;
   flex-shrink: 0;
   margin-top: 3px;
   border-radius: 4px;
 }
-[data-theme="dark"] .org-logo-fix-dark { filter: brightness(0) invert(1); }
+.org-logo-lg { height: 64px; }
 .cv-entry-sub a {
   color: var(--global-text-color);
   text-decoration: none;
@@ -120,7 +120,7 @@ toc:
 <div class="cv-entry">
   <div class="cv-entry-head">
     <div class="cv-entry-main">
-      <img src="/assets/img/logos/cmu_square.png" alt="CMU" class="org-logo-big">
+      <img src="/assets/img/logos/cmu_square.png" alt="CMU" class="org-logo-big org-logo-lg">
       <div>
         <p class="cv-entry-title">Master of Science</p>
         <p class="cv-entry-sub"><a href="https://www.cs.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University, School of Computer Science</a></p>
@@ -149,7 +149,7 @@ toc:
 <div class="cv-entry">
   <div class="cv-entry-head">
     <div class="cv-entry-main">
-      <img src="/assets/img/logos/dtu_emblem.png" alt="DTU" class="org-logo-big">
+      <img src="/assets/img/logos/dtu_emblem.png" alt="DTU" class="org-logo-big org-logo-lg">
       <div>
         <p class="cv-entry-title">Bachelor of Technology</p>
         <p class="cv-entry-sub"><a href="https://www.dtu.ac.in/" target="_blank" rel="noopener">Delhi Technological University</a></p>
@@ -181,7 +181,7 @@ toc:
 <div class="cv-entry">
   <div class="cv-entry-head">
     <div class="cv-entry-main">
-      <img src="/assets/img/logos/aws_square.png" alt="AWS" class="org-logo-big org-logo-fix-dark">
+      <img src="/assets/img/logos/aws_square.png" alt="AWS" class="org-logo-big">
       <div>
         <p class="cv-entry-title">ML Intern, Neuron Scalable Training</p>
         <p class="cv-entry-sub"><a href="https://aws.amazon.com/machine-learning/trainium/" target="_blank" rel="noopener">Amazon Web Services, Annapurna Labs</a></p>
