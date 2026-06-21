@@ -2,14 +2,10 @@
 layout: page
 permalink: /publications/
 title: publications & projects
-description: Research publications and selected projects, in reverse chronological order.
+description:
 nav: true
 nav_order: 2
 ---
-
-<!-- _pages/publications.md -->
-
-{% include bib_search.liquid %}
 
 <div class="publications">
 
