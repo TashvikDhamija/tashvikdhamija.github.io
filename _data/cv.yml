@@ -1,73 +1,73 @@
 cv:
-  name: Tashvik Dhamija
   summary: >
     Master's student in Artificial Intelligence and Innovation at Carnegie Mellon University,
     and ML Intern at AWS Annapurna Labs working on generative model training frameworks for AWS Trainium.
-    Interests span LLMs, diffusion and flow-matching models, computer vision, and scalable ML systems —
+    Interests span LLMs, diffusion and flow-matching models, computer vision, and scalable ML systems,
     with a focus on bridging research and engineering. Previously co-founded Verbalia at Inria Startup Studio
     (France) and worked as a Computer Vision Engineer at SwitchOn. Published in IJCV, IEEE T-BIOM,
     and other venues; runner-up in Amazon ML Challenge 2023.
 
   sections:
     Education:
-      - institution: Carnegie Mellon University
-        location: Pittsburgh, PA, USA
+      - institution: Master of Science
         url: https://www.cs.cmu.edu/
-        area: "Master of Science in Artificial Intelligence and Innovation · School of Computer Science"
-        studyType: Carnegie Mellon University
-        start_date: 2024
-        end_date: present
+        studyType: Carnegie Mellon University, School of Computer Science
+        area: Artificial Intelligence and Innovation
+        location: Pittsburgh, PA, USA
+        start_date: "Sep 2024"
+        end_date: Present
         score: "GPA: 4.08 / 4.0"
         highlights:
           - |
             **Coursework**
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 2rem;margin-top:0.4rem;font-size:0.92em;">
-              <div>• Introduction to Machine Learning (PhD)</div>
-              <div>• Advanced Deep Learning (PhD)</div>
-              <div>• Computer Vision</div>
-              <div>• Advanced Natural Language Processing (PhD)</div>
-              <div>• AI Engineering</div>
-              <div>• Learning for 3D Vision</div>
-              <div>• Deep Learning Systems</div>
-              <div>• Generative AI</div>
-              <div>• Computer Systems</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.1rem 1.5rem;margin-top:0.3rem;font-size:0.86em;">
+              <div>Introduction to Machine Learning (PhD)</div>
+              <div>Advanced Deep Learning (PhD)</div>
+              <div>Computer Vision</div>
+              <div>Advanced Natural Language Processing (PhD)</div>
+              <div>AI Engineering</div>
+              <div>Learning for 3D Vision</div>
+              <div>Deep Learning Systems</div>
+              <div>Generative AI</div>
+              <div>Computer Systems</div>
             </div>
 
-      - institution: Delhi Technological University
-        location: Delhi, India
-        area: "Bachelor of Technology in Electronics and Communications Engineering"
+      - institution: Bachelor of Technology
+        url: https://dtu.ac.in/
         studyType: Delhi Technological University
-        start_date: 2019
-        end_date: 2023
+        area: Electronics and Communications Engineering
+        location: Delhi, India
+        start_date: "Aug 2019"
+        end_date: "May 2023"
         score: "GPA: 9.14 / 10.0"
         highlights:
           - |
             **Coursework**
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 2rem;margin-top:0.4rem;font-size:0.92em;">
-              <div>• Deep Learning</div>
-              <div>• Computer Vision</div>
-              <div>• Data Structures</div>
-              <div>• Algorithms</div>
-              <div>• Object-Oriented Programming</div>
-              <div>• Database Management Systems</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.1rem 1.5rem;margin-top:0.3rem;font-size:0.86em;">
+              <div>Deep Learning</div>
+              <div>Computer Vision</div>
+              <div>Data Structures</div>
+              <div>Algorithms</div>
+              <div>Object-Oriented Programming</div>
+              <div>Database Management Systems</div>
             </div>
 
     Experience:
-      - company: Amazon AWS Annapurna Labs
-        position: ML Intern — Neuron Scalable Training
+      - company: Amazon Web Services, Annapurna Labs
+        position: ML Intern, Neuron Scalable Training
         location: Cupertino, CA, USA
-        start_date: 2026-05
-        end_date: 2026-08
+        start_date: "May 2026"
+        end_date: "Aug 2026"
         highlights:
           - Enabled diffusion and flow-matching model training on AWS Trainium hardware by onboarding SOTA models (Stable Diffusion, FLUX, DiT, Wan) onto Neuron, Annapurna's native PyTorch backend.
           - Implemented and optimized PyTorch ATen operators for the Neuron backend, extending native operator coverage and efficiency.
           - Validated long-horizon training dynamics between Neuron and CUDA across text-to-image, text-to-video, and diffusion language models, ensuring convergence, numerical stability, and quality parity.
 
-      - company: Inria Startup Studio — Centre at Université Côte d'Azur
+      - company: Inria Startup Studio, Universite Cote d'Azur
         position: AI Entrepreneur and Researcher
         location: Valbonne, France
-        start_date: 2023-10
-        end_date: 2024-09
+        start_date: "Oct 2023"
+        end_date: "Sep 2024"
         highlights:
           - Architected a generative AI pipeline using diffusion transformers and cross-modal alignment to synthesize audio-driven video avatars with high temporal coherence and realistic lip-sync, optimized for real-time generation.
           - Led a 5-member team to launch MVPs for video generation (Product Hunt) and automated presentation creation with avatars.
@@ -76,17 +76,21 @@ cv:
       - company: SwitchOn
         position: Computer Vision Engineer
         location: Bangalore, India
-        start_date: 2023-06
-        end_date: 2023-09
+        start_date: "Jun 2023"
+        end_date: "Sep 2023"
         highlights:
           - Engineered real-time one-shot anomaly detection pipelines using embedding similarity in memory-bank architectures; led integration of a transformer-based OCR module into the anomaly detection stack.
-          - Achieved >99% accuracy with <1% false positives in defect identification on manufacturing lines.
+          - Achieved over 99% accuracy with less than 1% false positives in defect identification on manufacturing lines.
           - Performed remote rollout and on-device validation of models on Linux embedded hardware for robust edge inference.
 
     Skills:
-      - highlights:
-          - "**AI & ML Frameworks:** PyTorch, CUDA, JAX, TensorFlow, Keras, HuggingFace (Transformers, Diffusers, PEFT), Weights & Biases"
-          - "**Generative AI:** Diffusion Models (DDPM, DDIM, Flow Matching, CFG), Stable Diffusion, FLUX, DiT, Wan2.1, LLMs (fine-tuning, LoRA, RLHF, RAG), GANs"
-          - "**Computer Vision:** CLIP, ViT, DINO, Object Detection, Semantic Segmentation, Image Enhancement, OpenCV"
-          - "**ML Systems & Infra:** AWS Trainium, Neuron SDK, PyTorch ATen, Distributed Training (DDP, FSDP, ZeRO), Mixed Precision (BF16/FP8), HPCs"
-          - "**Languages & Tools:** Python, C/C++, CUDA, Bash, SQL, Git, Docker, Linux, Conda, Jupyter"
+      - label: "AI & ML Frameworks"
+        details: "PyTorch, CUDA, JAX, TensorFlow, Keras, HuggingFace (Transformers, Diffusers, PEFT), Weights & Biases"
+      - label: "Generative AI"
+        details: "Diffusion Models (DDPM, Flow Matching, CFG), Stable Diffusion, FLUX, DiT, Wan2.1, LLMs (fine-tuning, LoRA, RLHF, RAG), GANs"
+      - label: "Computer Vision"
+        details: "CLIP, ViT, DINO, Object Detection, Semantic Segmentation, Image Enhancement, OpenCV"
+      - label: "ML Systems"
+        details: "AWS Trainium, Neuron SDK, Distributed Training (DDP, FSDP, ZeRO), Mixed Precision (BF16/FP8), HPCs, Docker"
+      - label: "Languages & Tools"
+        details: "Python, C/C++, CUDA, Bash, SQL, Git, Linux, Conda, Jupyter"
