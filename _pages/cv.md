@@ -79,7 +79,7 @@ toc:
   gap: 1rem;
 }
 .org-logo-big {
-  height: 46px;
+  height: 64px;
   width: auto;
   flex-shrink: 0;
   margin-top: 3px;
