@@ -159,7 +159,7 @@ toc:
     </div>
     <div class="cv-entry-meta">
       <span class="dates">May 2026 – Aug 2026</span>
-      Cupertino, CA
+      Cupertino, CA, USA
     </div>
   </div>
   <ul class="cv-highlights">
@@ -181,9 +181,9 @@ toc:
     </div>
   </div>
   <ul class="cv-highlights">
-    <li>Architected a generative AI pipeline using diffusion transformers and cross-modal alignment to synthesize audio-driven video avatars with high temporal coherence and realistic lip-sync.</li>
-    <li>Led a 5-member team to launch MVPs for video generation (Product Hunt) and automated presentation creation with avatars.</li>
-    <li>Showcased MVPs at VivaTech (Paris) and Bits & Pretzels (Munich), generating 20+ partner and investor leads.</li>
+    <li>Architected a generative AI pipeline leveraging diffusion transformers and cross-modal alignment to synthesize photorealistic, audio-driven video avatars with high temporal coherence and lip-sync accuracy.</li>
+    <li>Led a 5-member ML engineering team in developing an MVP launched on Product Hunt, implementing optimization strategies for real-time avatar generation and conducting iterative evaluations to improve perceptual realism and latency.</li>
+    <li>Formulated go-to-market strategy via business plans, pitch decks, and financial models; showcased at VivaTech (Paris) and Bits & Pretzels (Munich) to attract partners and investors.</li>
   </ul>
 </div>
 
@@ -199,9 +199,27 @@ toc:
     </div>
   </div>
   <ul class="cv-highlights">
-    <li>Engineered real-time one-shot anomaly detection pipelines using embedding similarity in memory-bank architectures; integrated a transformer-based OCR module into the defect detection stack.</li>
-    <li>Achieved over 99% accuracy with under 1% false positives in defect identification on manufacturing lines.</li>
-    <li>Performed remote rollout and on-device validation on Linux embedded hardware for edge inference.</li>
+    <li>Engineered one-shot anomaly detection pipelines leveraging feature embedding similarity and memory-bank architectures, achieving over 99% detection accuracy with under 1% false positives in real-time defect identification on manufacturing lines.</li>
+    <li>Led design and integration of a transformer-based OCR module into the anomaly detection stack, replacing legacy classical CV approaches; delivered near-perfect text recognition accuracy for reliable automated inspection in production.</li>
+    <li>Performed remote rollout and on-device validation of CV models on Linux-based embedded hardware, ensuring robust edge inference.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-head">
+    <div>
+      <p class="cv-entry-title">Undergraduate Research Intern</p>
+      <p class="cv-entry-sub">Inria Centre at Université Côte d'Azur</p>
+    </div>
+    <div class="cv-entry-meta">
+      <span class="dates">May 2022 – Jun 2023</span>
+      Valbonne, France
+    </div>
+  </div>
+  <ul class="cv-highlights">
+    <li>Explored audio-to-video facial synthesis and fingerprint enhancement using generative AI; submitted 3 research papers to journals and conferences, later pursuing incubation to translate research into products.</li>
+    <li>Adapted the Latent Image Animator model for audio-conditioned video synthesis via feature mapping of audio encodings to motion space; transitioned to diffusion-based models for improved temporal coherence and realism.</li>
+    <li>Developed novel self-supervised losses and integrated FFT-based convolutions in FG-GAN to enhance fingerprint image quality for biometric recognition.</li>
   </ul>
 </div>
 
