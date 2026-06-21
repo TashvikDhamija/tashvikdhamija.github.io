@@ -101,6 +101,10 @@ toc:
   font-size: 0.88rem;
   color: var(--global-text-color);
 }
+.cw-grid > div::before {
+  content: "• ";
+  color: var(--global-text-color);
+}
 .skills-list {
   display: flex;
   flex-direction: column;
