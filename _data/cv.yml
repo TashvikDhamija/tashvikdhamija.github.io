@@ -1,37 +1,56 @@
 cv:
   name: Tashvik Dhamija
-  label: MS AI @ Carnegie Mellon University
-  email: tdhamija@andrew.cmu.edu
-  location: Pittsburgh, PA
-  image: ""
-  summary: MS student in AI at CMU with research experience in generative AI, computer vision, and efficient deep learning. Industry background spanning ML internships, computer vision engineering, and AI entrepreneurship.
-
-  social_networks:
-    - network: LinkedIn
-      username: tashvikdhamija
-    - network: GitHub
-      username: tashvikdhamija
+  summary: >
+    Master's student in Artificial Intelligence and Innovation at Carnegie Mellon University,
+    and ML Intern at AWS Annapurna Labs working on generative model training frameworks for AWS Trainium.
+    Interests span LLMs, diffusion and flow-matching models, computer vision, and scalable ML systems —
+    with a focus on bridging research and engineering. Previously co-founded Verbalia at Inria Startup Studio
+    (France) and worked as a Computer Vision Engineer at SwitchOn. Published in IJCV, IEEE T-BIOM,
+    and other venues; runner-up in Amazon ML Challenge 2023.
 
   sections:
     Education:
       - institution: Carnegie Mellon University
         location: Pittsburgh, PA, USA
         url: https://www.cs.cmu.edu/
-        area: Artificial Intelligence and Innovation
-        studyType: Master of Science — School of Computer Science
+        area: "Master of Science in Artificial Intelligence and Innovation · School of Computer Science"
+        studyType: Carnegie Mellon University
         start_date: 2024
         end_date: present
-        score: "4.08/4.0"
-        courses: "Computer Systems, Introduction to Machine Learning (PhD), Advanced Deep Learning (PhD), Computer Vision, Advanced Natural Language Processing (PhD), AI Engineering, Learning for 3D Vision, Deep Learning Systems, Generative AI"
+        score: "GPA: 4.08 / 4.0"
+        highlights:
+          - |
+            **Coursework**
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 2rem;margin-top:0.4rem;font-size:0.92em;">
+              <div>• Introduction to Machine Learning (PhD)</div>
+              <div>• Advanced Deep Learning (PhD)</div>
+              <div>• Computer Vision</div>
+              <div>• Advanced Natural Language Processing (PhD)</div>
+              <div>• AI Engineering</div>
+              <div>• Learning for 3D Vision</div>
+              <div>• Deep Learning Systems</div>
+              <div>• Generative AI</div>
+              <div>• Computer Systems</div>
+            </div>
 
       - institution: Delhi Technological University
         location: Delhi, India
-        area: Electronics and Communications Engineering
-        studyType: Bachelor of Technology
+        area: "Bachelor of Technology in Electronics and Communications Engineering"
+        studyType: Delhi Technological University
         start_date: 2019
         end_date: 2023
-        score: "9.14/10.0"
-        courses: "Deep Learning, Computer Vision, Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems"
+        score: "GPA: 9.14 / 10.0"
+        highlights:
+          - |
+            **Coursework**
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 2rem;margin-top:0.4rem;font-size:0.92em;">
+              <div>• Deep Learning</div>
+              <div>• Computer Vision</div>
+              <div>• Data Structures</div>
+              <div>• Algorithms</div>
+              <div>• Object-Oriented Programming</div>
+              <div>• Database Management Systems</div>
+            </div>
 
     Experience:
       - company: Amazon AWS Annapurna Labs
@@ -64,74 +83,10 @@ cv:
           - Achieved >99% accuracy with <1% false positives in defect identification on manufacturing lines.
           - Performed remote rollout and on-device validation of models on Linux embedded hardware for robust edge inference.
 
-    Publications:
-      - title: "Looking In Through Removal: Interpretability Analysis of Physical Priors in IL Policies"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: "CoRL (submitted)"
-        releaseDate: 2025
-        summary: Introduced a causal interpretability framework to identify which physics properties govern distinct stages of manipulation task execution.
-
-      - title: "Dimitra: Audio-driven Diffusion Model for Expressive Talking Head Generation"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: International Journal of Computer Vision (IJCV)
-        releaseDate: TODO
-        summary: Innovated a diffusion transformer for talking head generation, leveraging audio-to-3D latent embeddings to render accurate lip-sync videos.
-
-      - title: "Generalizable Deepfake Detection based on Visual Speech Recognition (VSR)"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)
-        releaseDate: TODO
-        summary: Engineered a zero-shot model harnessing representation learning on VSR latent space, achieving 30% deepfake detection improvement.
-
-      - title: "Semantic Segmentation through Transfused Convolution and Transformer"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: Applied Intelligence
-        releaseDate: TODO
-        summary: Designed a hybrid U-Net + Vision Transformer architecture to capture local and global context, improving nuclei and skin lesion segmentation by 10%.
-
-      - title: "Local Distributional Smoothing for Noise-invariant Fingerprint Restoration"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: BIOSIG (Oral Presentation)
-        releaseDate: TODO
-        summary: Developed a novel adversarial training algorithm for GAN-based denoising models, boosting fingerprint matching by 20%.
-
-      - title: "Cross Domain Consistency Fingerprint Denoising"
-        authors:
-          - Tashvik Dhamija
-          - et al.
-        publisher: IEEE Sensors Letters
-        releaseDate: TODO
-        summary: Proposed a novel unsupervised loss exploiting unlabeled data to improve fingerprint identification by 19%.
-
     Skills:
-      - name: Programming & Systems
-        level: Expert
-        icon: fa-solid fa-code
-        keywords: "Python, C/C++, SQL, Bash, Linux, Git, AWS, Conda, Jupyter, Docker, HPCs, GPUs, Distributed & Parallel Compute"
-
-      - name: Machine Learning
-        level: Expert
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, CUDA, TensorFlow, Keras, Pandas, NumPy, Scikit-Learn, OpenCV, HuggingFace Transformers, Generative AI, Diffusion Models, GANs, LLMs, Computer Vision, NLP"
-
-    Achievements:
-      - title: Amazon ML Challenge — 2nd Place (Nationwide, ~5000 teams)
-        date: 2022
-        awarder: Amazon
-        summary: Engineered an ensemble of fine-tuned BERT and RoBERTa models with clustering-based quantization to predict product dimensions. Team name — "Team Fishes".
-
-      - title: Research Impact
-        date: 2025
-        awarder: Google Scholar
-        url: https://scholar.google.com/citations?user=LXSpE74AAAAJ&hl=en
-        summary: Published 5+ peer-reviewed articles with over 128 citations, h-index of 4, and i10-index of 2.
+      - highlights:
+          - "**AI & ML Frameworks:** PyTorch, CUDA, JAX, TensorFlow, Keras, HuggingFace (Transformers, Diffusers, PEFT), Weights & Biases"
+          - "**Generative AI:** Diffusion Models (DDPM, DDIM, Flow Matching, CFG), Stable Diffusion, FLUX, DiT, Wan2.1, LLMs (fine-tuning, LoRA, RLHF, RAG), GANs"
+          - "**Computer Vision:** CLIP, ViT, DINO, Object Detection, Semantic Segmentation, Image Enhancement, OpenCV"
+          - "**ML Systems & Infra:** AWS Trainium, Neuron SDK, PyTorch ATen, Distributed Training (DDP, FSDP, ZeRO), Mixed Precision (BF16/FP8), HPCs"
+          - "**Languages & Tools:** Python, C/C++, CUDA, Bash, SQL, Git, Docker, Linux, Conda, Jupyter"

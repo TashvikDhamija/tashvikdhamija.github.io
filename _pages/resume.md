@@ -7,7 +7,7 @@ nav_order: 4
 description:
 ---
 
-<div style="text-align: center; margin-bottom: 1.5rem;">
+<div style="text-align: right; margin-bottom: 1.5rem;">
   <a href="/assets/pdf/resume.pdf" download class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.95rem;">
     <i class="fas fa-download"></i> &nbsp; Download PDF
   </a>
