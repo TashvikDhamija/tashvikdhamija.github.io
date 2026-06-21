@@ -29,32 +29,26 @@ latest_posts:
 ---
 
 <style>
-/* Selected pubs: compact one-line entries */
+/* Selected pubs: one-line title with Submitted inline */
 .publications .author,
 .publications .periodical,
 .publications .links { display: none; }
 
 .publications .col-sm-8 {
-  display: flex;
-  align-items: baseline;
   overflow: hidden;
-  gap: 0.5rem;
-}
-.publications .title {
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
-  flex: 1;
-  min-width: 0;
+}
+.publications .col-sm-8 > .title {
+  display: inline;
   font-size: 0.92rem;
 }
-/* Show note (e.g. "Submitted") inline when present */
+/* Show note (e.g. "Submitted") inline after title for CoRL */
 .publications .col-sm-8 > div.periodical:nth-child(4) {
-  display: block;
-  flex-shrink: 0;
+  display: inline;
   font-size: 0.78rem;
   color: var(--global-text-color-light, #aaa);
-  white-space: nowrap;
+  padding-left: 0.5rem;
 }
 
 /* Hobbies tags */
@@ -78,6 +72,7 @@ latest_posts:
   flex-wrap: wrap;
   gap: 0.45rem;
   margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
 }
 .topics-row span {
   background: var(--global-theme-color);
