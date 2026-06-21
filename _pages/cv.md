@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /experience/
-title: experience
+permalink: /background/
+title: background
 nav: true
 nav_order: 3
 toc:
@@ -72,6 +72,20 @@ toc:
   font-size: 0.93rem;
   margin: 0.75rem 0 0.3rem;
 }
+.org-logo {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.45rem;
+  border-radius: 2px;
+}
+.cv-entry-sub a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+.cv-entry-sub a:hover {
+  color: var(--global-theme-color);
+}
 .cw-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,7 +114,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">Master of Science</p>
-      <p class="cv-entry-sub">Carnegie Mellon University, School of Computer Science</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/cmu.svg" alt="CMU" class="org-logo"><a href="https://www.cs.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University, School of Computer Science</a></p>
       <p class="cv-entry-area">Artificial Intelligence and Innovation &nbsp;·&nbsp; GPA: 4.08 / 4.0</p>
     </div>
     <div class="cv-entry-meta">
@@ -126,7 +140,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">Bachelor of Technology</p>
-      <p class="cv-entry-sub">Delhi Technological University</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/dtu.png" alt="DTU" class="org-logo"><a href="https://www.dtu.ac.in/" target="_blank" rel="noopener">Delhi Technological University</a></p>
       <p class="cv-entry-area">Electronics and Communications Engineering &nbsp;·&nbsp; GPA: 9.14 / 10.0</p>
     </div>
     <div class="cv-entry-meta">
@@ -155,7 +169,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">ML Intern, Neuron Scalable Training</p>
-      <p class="cv-entry-sub">Amazon Web Services, Annapurna Labs</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/aws.svg" alt="AWS" class="org-logo"><a href="https://aws.amazon.com/machine-learning/trainium/" target="_blank" rel="noopener">Amazon Web Services, Annapurna Labs</a></p>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">May 2026 – Aug 2026</span>
@@ -173,7 +187,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">AI Entrepreneur and Researcher</p>
-      <p class="cv-entry-sub">Inria Startup Studio, Universite Cote d'Azur</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo"><a href="https://startup.inria.fr/" target="_blank" rel="noopener">Inria Startup Studio, Université Côte d'Azur</a></p>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Oct 2023 – Sep 2024</span>
@@ -191,7 +205,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">Computer Vision Engineer</p>
-      <p class="cv-entry-sub">SwitchOn</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/switchon.svg" alt="SwitchOn" class="org-logo"><a href="https://switchon.io/" target="_blank" rel="noopener">SwitchOn</a></p>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">Jun 2023 – Sep 2023</span>
@@ -209,7 +223,7 @@ toc:
   <div class="cv-entry-head">
     <div>
       <p class="cv-entry-title">Undergraduate Research Intern</p>
-      <p class="cv-entry-sub">Inria Centre at Université Côte d'Azur</p>
+      <p class="cv-entry-sub"><img src="/assets/img/logos/inria.png" alt="Inria" class="org-logo"><a href="https://www.inria.fr/fr/centre-inria-universite-cote-azur" target="_blank" rel="noopener">Inria Centre at Université Côte d'Azur</a></p>
     </div>
     <div class="cv-entry-meta">
       <span class="dates">May 2022 – Jun 2023</span>
