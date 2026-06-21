@@ -22,7 +22,7 @@ cv:
         start_date: 2024
         end_date: present
         score: "4.08/4.0"
-        courses: "Computer Systems, Intro to Machine Learning (PhD), Advanced Deep Learning (PhD), Computer Vision, Advanced NLP (PhD), AI Engineering, Learning for 3D Vision, Deep Learning Systems, Generative AI"
+        courses: "Computer Systems, Introduction to Machine Learning (PhD), Advanced Deep Learning (PhD), Computer Vision, Advanced Natural Language Processing (PhD), AI Engineering, Learning for 3D Vision, Deep Learning Systems, Generative AI"
 
       - institution: Delhi Technological University
         location: Delhi, India
@@ -31,7 +31,7 @@ cv:
         start_date: 2019
         end_date: 2023
         score: "9.14/10.0"
-        courses: "Deep Learning, Computer Vision, Data Structures, Algorithms, Object Oriented Programming, DBMS"
+        courses: "Deep Learning, Computer Vision, Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems"
 
     Experience:
       - company: Amazon AWS Annapurna Labs
