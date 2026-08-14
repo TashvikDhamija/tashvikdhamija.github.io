@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-14'
 papers:
   LXSpE74AAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -28,6 +28,10 @@ papers:
   LXSpE74AAAAJ:Y0pCki6q_DkC:
     citations: 2
     title: AI killed the video star. Audio-driven diffusion model for expressive talking head generation
+    year: '2026'
+  LXSpE74AAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Do You See What I Say? Generalizable Deepfake Detection based on Visual Speech Recognition
     year: '2026'
   LXSpE74AAAAJ:d1gkVwhDpl0C:
     citations: 14
